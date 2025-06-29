@@ -1,0 +1,150 @@
+@media only screen and (max-width: 1150px){
+    
+    
+    /**** Spaceman ****/
+    .spaceman-example img {
+        margin-left: 40px;
+    }
+    
+    /***** Photo Gallery*****/
+    .photo-segment {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+   .photo-segment-2 {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .photo-segment-3 {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .col.span-1-of-3.one-reference {
+        width: 48.5%;
+        margin-left: 10px;
+    }
+
+    .one-reference:nth-child(3) {
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 1050px){
+
+    /**** Our clients who survived ****/  
+
+    .program-info .span-1-of-2 {
+        width: 96%;
+    }
+
+    .program-info img {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .text-program p {
+        margin-top: 20px;
+    }
+}
+
+@media only screen and ( max-width: 750px){
+   /**** Spaceman ****/
+
+.spaceman-example .span-1-of-2 {
+    width: 100%;
+}
+
+.spaceman-example .col {
+    margin-left: 0;
+}
+   
+.spaceman-example img {
+    margin-left: 40px;
+}
+    
+/***** Photo Gallery*****/
+    
+   .photo-segment {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .photo-segment .col{
+        margin-left: 0;
+    }
+    .photo-segment li {
+        width: 100%;
+    }
+    .photo-segment-2 {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .photo-segment-2 .col{
+        margin-left: 0;
+    }
+   
+    .photo-segment-2 li {
+        width: 100%;
+    }
+     .photo-segment-3 {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .photo-segment-3 .col{
+        margin-left: 0;
+    }
+    .photo-segment-3 li {
+        width: 100%;
+    }
+}
+
+
+@media only screen and (max-width: 730px) {
+
+/**** Header ****/
+
+.header-text {
+    width: 100%;
+    left: 0%;
+    transform: translate(-0%, -0%);
+}
+
+.header-text h1 {
+    text-align: center;
+}
+
+.btn {
+    display: block;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    padding: 15px;
+
+}
+
+.btn-empty:link,
+.btn-empty:visited {
+    margin-left: 10px;
+}
+
+}
+
+
+@media only screen and (max-width: 685px) {
+    
+    /********* Photo name - reference ********/
+    .col.span-1-of-3.one-reference {
+        width: 100%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .photo-name {
+        float: right;
+        margin-right: 25px;
+    }
+}
+
+

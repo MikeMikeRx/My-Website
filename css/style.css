@@ -1,0 +1,369 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/**************** 
+**** reusable ***
+*****************/
+.row{
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+}
+/*heading*/
+.heading-main h2 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.heading-main h2:after {
+    content: "";
+    display: block;
+    width: 150px;
+    border-bottom: 2px solid #8436e4;
+    margin: 20px auto;
+}
+
+/**************** 
+**** header ****** 
+*****************/
+
+body {
+    background-color: rgb(220, 224, 224);
+}
+
+header {
+    background: linear-gradient(rgba(158, 3, 241, 0.362), rgba(122, 125, 34, 0.3)), url(../img/Spaceman.jpg);
+    background-size: cover;
+    height: 150vh;
+    /*background-attachment:fixed;----Obrázek se hýbe zároveň se scrollováním*/
+}
+
+#logo img {
+    width: 200px;
+    position: absolute;
+    top: 2%;
+}
+
+nav ul {
+    float: right;
+    margin-top: 60px;
+}
+
+nav ul li {
+    display: inline-block;
+    color: #fff;
+    margin-left: 15px;
+}
+
+nav ul li a:link,
+nav ul li a:visited {
+    color: #fff;
+    font-size: 25px;
+    text-decoration: none;
+    border-bottom: 3px solid transparent;
+}
+
+nav ul li a:hover,
+nav ul li a:active {
+    transition: 0.5s;
+    border-bottom: 3px solid #603891;
+}
+
+.header-text {
+    position: absolute;
+    top: 70%;
+    left: 33%;
+    transform: translate(-50%, -50%);
+}
+
+.header-text h1 {
+    color: #fff;
+    font-size: 35px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    word-spacing: 3px;
+}
+
+.btn {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    border: 1px solid #4d2f72;
+    border-radius: 10px;
+    margin-top: 10px;    
+    padding: 5px 10px;
+    letter-spacing: 1px;
+}
+
+.btn-full:link,
+.btn-full:visited {
+    background: #4d2f72;
+}
+
+.btn-full:hover,
+.btn-full:active {
+    transition: background 1s;
+    background: #42295f;
+    border: 1px solid #4d2f72;
+}
+
+.btn-empty:link,
+.btn-empty:visited {
+    margin-left: 5px;
+}
+
+.btn-empty:hover,
+.btn-empty:active {
+    transition: background 1s;
+    background: #4d2f72;
+    border: 1px solid #4d2f72;
+}
+
+
+/**** Spaceman ****/
+
+.spaceman-example img {
+    width: 88%;
+    border-radius: 8px;
+    box-shadow: 3px 2px 3px 4px #c69cf3;
+}
+
+/**** program-info ***/
+
+.program-info img {
+    width: 90%;
+    border-radius: 8px;
+    box-shadow: 3px 2px 3px 4px #c69cf3;
+}
+
+.text-program {
+    margin-bottom: 50px;
+}
+
+.text-program div{
+    width: 50px;
+    height: 50px;
+    border: 2px solid #000;
+    text-align: center;
+    border-radius: 50%;
+    padding: 12px;
+    float: left;
+}
+
+.text-program p {
+    margin-left: 70px;
+    font-size: 18px;
+}
+
+
+/*** Our satisfied clients ***/
+.reference {
+    background: linear-gradient(rgba(129, 22, 186, 0.719), rgba(23, 34, 141, 0.701)), url(../img/Spaceman.jpg);
+    background-attachment: fixed;
+}
+
+.reference h2 {
+    color: #fff;
+    padding-top: 20px;
+}
+
+.reference h2::after {
+    border-bottom: 2px solid #02fde4;
+}
+
+.one-reference {
+    color: #fff;
+    font-size: 20px;
+}
+
+.one-reference p {
+    font-style: italic;
+}
+
+.photo-name {
+    margin-top: 20px;
+    margin-bottom: 35px;
+    font-style: normal;
+}
+
+.photo-name p{
+    padding: 35px;
+    margin-left: 80px;  
+}
+
+.photo-name img{
+    width: 100px;
+    border-radius: 50%;
+    float: left;
+}
+
+/*** Photo gallery ***/
+/*photo-segment*/
+.photo-segment li {
+    list-style-type: none;
+    background-color: #000;
+    overflow: hidden;
+    height: 417px;
+}
+
+.photo-segment img {
+    width: 100%;
+    height: 417px;
+    opacity: 1; /*opacity změněná z 0.5 na 1, kvůli effectu lightboxu*/
+    transform: scale(1.15);
+}
+
+/*--------Hover efect je nahrazený Lightboxem----------
+.photo-segment img:hover {
+    transition: transform 0.5s, opacity 0.5s;
+    transform: scale(1);
+    opacity: 1;
+}
+*/
+
+/*photo-segment-2*/
+.photo-segment-2 li {
+    list-style-type: none;
+    background-color: #000;
+    overflow: hidden;
+    height: 351px;
+}
+
+.photo-segment-2 img {
+    width: 100%;
+    height: 351px;
+    opacity: 1; /*opacity změněná z 0.5 na 1, kvůli effectu lightboxu*/
+    transform: scale(1.15);
+}
+/*--------Hover efect je nahrazený Lightboxem----------
+.photo-segment-2 img:hover {
+    transition: transform 0.5s, opacity 0.5s;
+    transform: scale(1);
+    opacity: 1;
+}
+*/
+
+
+/*photo-segment-3*/
+.photo-segment-3 li {
+    list-style-type: none;
+    background-color: #000;
+    overflow: hidden;
+    height: 500px;
+}
+
+.photo-segment-3 img {
+    width: 100%;
+    height: 500px;
+    opacity: 1; /*opacity změněná z 0.5 na 1, kvůli effectu lightboxu*/
+    transform: scale(1.15);
+}
+
+/*--------Hover efect je nahrazený Lightboxem----------
+.photo-segment-3 img:hover {
+    transition: transform 0.5s, opacity 0.5s;
+    transform: scale(1);
+    opacity: 1;
+}
+*/
+
+
+/***Contact Form***/
+.contact-form {
+    max-width: 900px;
+    text-align: center;
+
+}
+
+.contact-form input {
+    width: 80%;
+    margin: 3px 0px;
+    padding: 7px;
+    border: 2px solid #620377;
+    border-radius: 7px;
+    box-shadow: 5px 5px 5px rgb(168, 111, 194);
+}
+
+.contact-form textarea {
+    width: 80%;
+    margin: 3px 0px;
+    padding: 7px;
+    border: 2px solid #620377;
+    border-radius: 7px;
+    box-shadow: 5px 5px 5px rgb(168, 111, 194);
+    font-family: Arial
+}
+
+/*----Input bez tečky */
+input[type="submit"] {
+    background: #620377;
+    color: #fff;
+    font-size: 20px;
+}
+
+input[type="submit"]:hover {
+    transition: 0.5s;
+    background-color: #9d55f5;
+    color: #000;
+}
+
+/********* Footer ****/
+.footer-page {
+    background: #620377;
+    margin-top: 80px;
+    color: #fff;
+
+}
+
+.social {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.social p {
+    display: inline;
+    margin-right: 10px;
+}
+
+.social p a:link,
+.social p a:visited {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+.social p a:hover,
+.social p a:active {
+    color: #e6a9f5;
+    border-bottom: solid 2px;
+    border-color: #7af7eb;
+}
+
+.footer-text {
+    text-align: center;
+    margin: 10px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**** Stop floating/ClearFix ***/
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
