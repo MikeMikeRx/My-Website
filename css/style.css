@@ -43,7 +43,7 @@ header {
     background: linear-gradient(rgba(158, 3, 241, 0.362), rgba(122, 125, 34, 0.3)), url(../img/Spaceman.jpg);
     background-size: cover;
     height: 150vh;
-    /*background-attachment:fixed;----Obrázek se hýbe zároveň se scrollováním*/
+    /*background-attachment:fixed*/
 }
 
 #logo img {
@@ -218,11 +218,11 @@ nav ul li a:active {
 .photo-segment img {
     width: 100%;
     height: 417px;
-    opacity: 1; /*opacity změněná z 0.5 na 1, kvůli effectu lightboxu*/
+    opacity: 1; /*opacity changed from 0.5 to 1, because of lightbox effect*/
     transform: scale(1.15);
 }
 
-/*--------Hover efect je nahrazený Lightboxem----------
+/*--------Hover effect replaced by Lightbox----------
 .photo-segment img:hover {
     transition: transform 0.5s, opacity 0.5s;
     transform: scale(1);
@@ -241,10 +241,10 @@ nav ul li a:active {
 .photo-segment-2 img {
     width: 100%;
     height: 351px;
-    opacity: 1; /*opacity změněná z 0.5 na 1, kvůli effectu lightboxu*/
+    opacity: 1; /*opacity changed from 0.5 to 1, because of lightbox effect*/
     transform: scale(1.15);
 }
-/*--------Hover efect je nahrazený Lightboxem----------
+/*--------Hover effect replaced by Lightbox----------
 .photo-segment-2 img:hover {
     transition: transform 0.5s, opacity 0.5s;
     transform: scale(1);
@@ -264,11 +264,11 @@ nav ul li a:active {
 .photo-segment-3 img {
     width: 100%;
     height: 500px;
-    opacity: 1; /*opacity změněná z 0.5 na 1, kvůli effectu lightboxu*/
+    opacity: 1; /*opacity changed from 0.5 to 1, because of lightbox effect*/
     transform: scale(1.15);
 }
 
-/*--------Hover efect je nahrazený Lightboxem----------
+/*--------Hover effect replaced by Lightbox----------
 .photo-segment-3 img:hover {
     transition: transform 0.5s, opacity 0.5s;
     transform: scale(1);
@@ -303,7 +303,6 @@ nav ul li a:active {
     font-family: Arial
 }
 
-/*----Input bez tečky */
 input[type="submit"] {
     background: #620377;
     color: #fff;
