@@ -2,7 +2,7 @@
 A fictional web project that promotes space travel, astronaut training, and exploration programs.
 
 
-📁 Project Structure:
+Project Structure:
 
 - **HTML5**: Semantic layout with sections for About, Program, Clients, Gallery, and Contact.
 - **CSS3**: Custom responsive grid system with media queries for mobile friendliness.
@@ -10,7 +10,7 @@ A fictional web project that promotes space travel, astronaut training, and expl
 - **Lightbox2**: Enhances the image gallery with a modern overlay experience.
 
 
-🔧 Features:
+Features:
 
 - Smooth scrolling navigation  
 - Fully responsive grid-based layout  
@@ -22,7 +22,7 @@ A fictional web project that promotes space travel, astronaut training, and expl
 - Clean UI/UX with hover transitions and responsive breakpoints  
 
 
-📌 Technologies Used:
+Technologies Used:
 
 - HTML5  
 - CSS3  
