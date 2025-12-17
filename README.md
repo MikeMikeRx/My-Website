@@ -1,8 +1,8 @@
-🚀 Space Academy Website  
+# 🚀 Space Academy Website  
 A fictional web project that promotes space travel, astronaut training, and exploration programs.
 
 
-Project Structure:
+## Project Structure:
 
 - **HTML5**: Semantic layout with sections for About, Program, Clients, Gallery, and Contact.
 - **CSS3**: Custom responsive grid system with media queries for mobile friendliness.
@@ -10,7 +10,7 @@ Project Structure:
 - **Lightbox2**: Enhances the image gallery with a modern overlay experience.
 
 
-Features:
+## Features:
 
 - Smooth scrolling navigation  
 - Fully responsive grid-based layout  
@@ -22,10 +22,20 @@ Features:
 - Clean UI/UX with hover transitions and responsive breakpoints  
 
 
-Technologies Used:
+## Technologies Used:
 
 - HTML5  
 - CSS3  
 - JavaScript  
 - jQuery  
 - Lightbox2
+
+## Screenshots
+### Index
+![shot-1](./screenshots/shot-1.png)
+### Program
+![shot-2](./screenshots/shot-2.png)
+### Gallery
+![shot-3](./screenshots/shot-3.png)
+### Form
+![shot-4](./screenshots/shot-4.png)
