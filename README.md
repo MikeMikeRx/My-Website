@@ -1,7 +1,7 @@
 # 🚀 Space Academy Website  
 A fictional web project that promotes space travel, astronaut training, and exploration programs.
 
-<span style="color:red; font-weight:bold;">NOTE:</span> This project was created as one of my first projects while following video tutorials, long before I started using GitHub. It is shared here for reference.
+**🛑NOTE:** This project was created as one of my first projects while following video tutorials, long before I started using GitHub. It is shared here for reference.
 
 
 ## Project Structure:
